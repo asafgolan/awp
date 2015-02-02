@@ -1,0 +1,16 @@
+{% block content %}
+<!-- TODO: Make the 'home' page the top part is similar to 'Workspace' template: http://foundation.zurb.com/templates.html -->
+<!-- TODO: Use liquid syntax to add the 'front.jpg': http://docs.mixture.io/templates -->
+<!-- TODO: Make the other templates(Orbit, Gallery and Slider) in similar manner as this file. -->
+
+<div class="row">
+<div class="large-12 columns">
+<!-- TODO: Use liquid syntax to add the 'front.jpg': http://docs.mixture.io/templates -->
+<div id="featured">{{ 'front.jpg' | asset_url | image_tag }}</div>
+</div>
+</div>
+
+
+
+
+{% endblock %}
